@@ -57,8 +57,7 @@ State-Level Accuracy Variation<br>
 <br>
 Point Forecast Accuracy<br>
 <br>
-• Fit linear regression:<br>
-actual ~ median_forecast<br>
+• Fit linear regression: actual ~ median_forecast<br>
 • Extracted slope, intercept, R², and residual error.<br>
 • Produced a poster-friendly summary table.<br>
 <br>
