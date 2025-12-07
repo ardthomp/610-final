@@ -1,15 +1,15 @@
-Forecast vs. Reality: CDC FluSight Performance in the 2024–2025 Flu Season
+**Forecast vs. Reality: CDC FluSight Performance in the 2024–2025 Flu Season**
 
-Analysis, Figures, and Poster Materials for INFO 610 (Fall 2025)
-Author: Andrea Thompson
+**Analysis, Figures, and Poster Materials for INFO 610 (Fall 2025)**
+**Author: Andrea Thompson**
 
-Overview
+**Overview**
 
 This repository contains all data-processing scripts, analyses, and final figures used to evaluate how accurately the CDC FluSight ensemble model predicted U.S. influenza-associated hospitalizations during the 2024–2025 flu season.
 
 The project assesses 50% and 95% prediction interval (PI) coverage, state-level variation in forecast accuracy, and point forecast performance using linear regression. These results were presented in a scientific poster for INFO 610 (Fall 2025).
 
-📁 Repository Structure
+**Repository Structure**
 
 cdc-flusight-2024-25-poster-analysis/
 │
@@ -29,7 +29,7 @@ cdc-flusight-2024-25-poster-analysis/
 ├── README.md
 └── .gitignore
 
-Data Sources
+**Data Sources**
 
 Data come from the CDC Epidemic Prediction Initiative FluSight GitHub:
 
@@ -40,7 +40,7 @@ Data come from the CDC Epidemic Prediction Initiative FluSight GitHub:
 CDC FluSight GitHub:
 https://github.com/cdcepi/FluSight-forecast-hub
 
-Analytic Summary
+**Analytic Summary**
 Prediction Interval Coverage
 
 • Calculated whether observed hospitalizations fell within the 50% and 95% prediction intervals.
@@ -69,7 +69,7 @@ Created visual comparisons for:
 
 These illustrate differences in volume, seasonality, and variability across locations.
 
-Required R Packages
+**Required R Packages**
 
 gh
 purrr
@@ -92,27 +92,27 @@ install.packages(c(
 "gh","purrr","dplyr","readr","stringr","ggplot2", "scales","tidyr","maps","patchwork","cowplot","ggpubr","gt","sysfonts","showtext"
 ))
 
-How to Reproduce the Analysis
+**How to Reproduce the Analysis**
 
-Clone the repository:
+1. Clone the repository:
 
 git clone https://github.com/YOURUSERNAME/cdc-flusight-2024-25-poster-analysis.git
 
-Open the project in RStudio.
+2. Open the project in RStudio.
 
-Run analysis.R
+3. Run analysis.R
 
-Poster
+**Poster**
 
 The final academic poster is located at:
 
 poster/poster.pdf
 
-License
+**License**
 
 This project is licensed under the MIT License.
 CDC data remain the property of the CDC.
 
-Acknowledgements
+**Acknowledgements**
 
-README.md generated in conjunction with ChatGPT.
+This README.md generated in conjunction with ChatGPT.
