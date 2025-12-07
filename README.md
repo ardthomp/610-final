@@ -30,7 +30,7 @@ cdc-flusight-2024-25-poster-analysis/
 └── .gitignore
 ```
 <br>
-🦠 **Data Sources** <br>
+🦠 **Data Sources** 
 <br>
 Data come from the CDC Epidemic Prediction Initiative FluSight GitHub:<br>
 <br>
