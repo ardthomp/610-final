@@ -1,15 +1,17 @@
-**Forecast vs. Reality: CDC FluSight Performance in the 2024–2025 Flu Season**<br>
+## **Forecast vs. Reality: CDC FluSight Performance in the 2024–2025 Flu Season**<br>
 <br>
 **Analysis, Figures, and Poster Materials for INFO 610 (Fall 2025)** <br>
 **Author: Andrea Thompson**<br>
 <br>
-🦠 **Overview**<br>
+
+## 🦠 **Overview**
 <br>
 This repository contains all data-processing scripts, analyses, and final figures used to evaluate how accurately the CDC FluSight ensemble model predicted U.S. influenza-associated hospitalizations during the 2024–2025 flu season.<br>
 <br>
 The project assesses 50% and 95% prediction interval (PI) coverage, state-level variation in forecast accuracy, and point forecast performance using linear regression. These results were presented in a scientific poster for INFO 610 (Fall 2025).<br>
 <br>
-🦠 **Repository Structure**<br>
+
+## 🦠 **Repository Structure**<br>
 ```
 cdc-flusight-2024-25-poster-analysis/
 │
@@ -31,7 +33,7 @@ cdc-flusight-2024-25-poster-analysis/
 ```
 <br>
 
-🦠 **Data Sources**
+## 🦠 **Data Sources**
 
 <br>
 Data come from the CDC Epidemic Prediction Initiative FluSight GitHub:<br>
@@ -44,7 +46,7 @@ CDC FluSight GitHub:<br>
 https://github.com/cdcepi/FluSight-forecast-hub<br>
 <br>
 
-🦠 **Analytic Summary** <br>
+## 🦠 **Analytic Summary** <br>
 <br>
 Prediction Interval Coverage<br>
 <br>
@@ -73,7 +75,7 @@ Created visual comparisons for:<br>
 
 These illustrate differences in volume, seasonality, and variability across locations.<br>
 
-🦠 **Required R Packages**<br>
+## 🦠 **Required R Packages**<br>
 
 gh<br>
 purrr<br>
@@ -96,7 +98,8 @@ install.packages(c(
 "gh","purrr","dplyr","readr","stringr","ggplot2", "scales","tidyr","maps","patchwork","cowplot","ggpubr","gt","sysfonts","showtext"
 ))<br>
 <br>
-🦠 **How to Reproduce the Analysis**<br>
+
+## 🦠 **How to Reproduce the Analysis**<br>
 <br>
 1. Clone the repository: git clone https://github.com/YOURUSERNAME/cdc-flusight-2024-25-poster-analysis.git<br>
 <br>
@@ -105,17 +108,17 @@ install.packages(c(
 3. Run analysis.R<br>
 <br>
 
-🦠 **Poster**
+## 🦠 **Poster**
 <br>
 The final academic poster is located at: poster/poster.pdf<br>
 <br>
 
-🦠 **License**
+## 🦠 **License**
 <br>
 This project is licensed under the MIT License.<br>
 CDC data remain the property of the CDC.<br>
 <br>
 
-🦠 **Acknowledgements**
+## 🦠 **Acknowledgements**
 <br>
 This README.md generated in conjunction with ChatGPT.
