@@ -108,6 +108,15 @@ summary(overall_model) # Generate summary table
 # -----------------FIGURE 1: State Accuracy Map with Z-score Bins-------------------
 
 ## Finding accuracy rate for each state and calculating z-scores
+state_accuracy <- data %>%
+  filter(location_name != "US") %>%   # optional: remove national-level row
+  group_by(location_name) %>%
+  summarise(
+    avg_correct_50 = mean(correct_50, na.rm = TRUE),
+    avg_correct_95 = mean(correct_95, na.rm = TRUE),
+    .groups = "drop"
+  )
+           
 state_accuracy <- state_accuracy %>%
   mutate(
     z50 = (avg_correct_50 - mean(avg_correct_50, na.rm = TRUE)) /
